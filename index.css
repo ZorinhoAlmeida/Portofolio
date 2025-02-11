@@ -623,3 +623,8 @@ body:not(.user-is-tabbing) a:focus {
        Or simply use a hex code: e.g. #f58af5 or #e467d2
     */
   }
+  .work-image {
+    width: 150px; /* or any desired width */
+    height: auto; 
+  }
+  
