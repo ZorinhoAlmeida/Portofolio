@@ -132,6 +132,7 @@ h3 {
     line-height: 1;
     font-size: var(--font-size-huge);
     font-weight: 400;
+    color: hsl(0, 0%, 100%);
 }
 
 @media(max-width: 900px) {
@@ -344,6 +345,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav__items {
     display: flex;
     list-style: none;
+    color: hsl(0, 0%, 100%);
 }
 
 .nav__item:not(:last-child) {
@@ -624,7 +626,7 @@ body:not(.user-is-tabbing) a:focus {
     */
   }
   .work-image {
-    width: 150px; /* or any desired width */
+    width: 180px; /* or any desired width */
     height: auto; 
   }
   
