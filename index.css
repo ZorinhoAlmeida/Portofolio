@@ -35,7 +35,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --pink: #fff532;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -572,6 +572,12 @@ body:not(.user-is-tabbing) a:focus {
 .contact__info {
     max-width: var(--container-medium-width);
 }
+/* Regra específica para o botão "Get in touch" no header */
+.header .btn--pink {
+    color: black !important; 
+  }
+  
+  
 
 /* --------------------------------------- */
 /* ----- Footer ----- */
